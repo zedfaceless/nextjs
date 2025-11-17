@@ -1,6 +1,7 @@
 'use server';
 
 import { z } from 'zod';
+// @ts-ignore: no type declarations available for 'postgres'
 import postgres from 'postgres';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
