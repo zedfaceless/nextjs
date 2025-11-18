@@ -138,3 +138,4 @@ export async function authenticate(
     return 'Something went wrong during login.';
   }
 }
+
